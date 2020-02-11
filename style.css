@@ -15,89 +15,89 @@ body {
     background-color: #fff;
 }
 
-    .header-container {
-        display: flex;
-        flex-direction: column;
-        margin: 5%;
-        text-align: center;
-    }
-    
-    #title, #subtitle{
-        margin: 0;
-    }
-    
-    #title {
-        font-size: 1.5rem;
-        font-weight: 200;
-        color: var(--titles);
-    }
-    
-    #subtitle {
-        font-size: 1.5rem;
-        font-weight: 600;
-    }
-    
-    #description {
-        font-size: 1rem;
-        font-weight: 200;
-        color: var(--description);
-    }
-    
-    .card-container {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .card{
-        margin: 0 20px 20px 20px;
-        box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.20);
-        border-radius: 7px;
-        padding: 10px 15px;
-        border-bottom: 0;
-        border-left: 0;
-        border-right: 0;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .card h3 {
-        color: var(--titles);
-        font-size: 1.2rem;
-    }
-    
-    .card p{
-        color: var(--description);
-        font-size: 0.95rem;
-        margin-top: 5px;
-    }
-    
-    .card img {
-        align-self: flex-end;
-    }
-    
-    #supervisor {
-        border-top: var(--supervisor);
-        border-style: solid;
-        border-width: 5px 0 0 0;   
-    }
-    
-    #team-builder {
-        border-top: var(--team);
-        border-style: solid;
-        border-width: 5px 0 0 0;
-    }
-    
-    #karma{
-        border-top: var(--karma);
-        border-style: solid;
-        border-width: 5px 0 0 0;
-    }
-    
-    #calculator{
-        border-top: var(--calculator);
-        border-style: solid;
-        border-width: 5px 0 0 0;
-    }
+.header-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    text-align: center;
+}
+
+#title, #subtitle{
+    margin: 0;
+}
+
+#title {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--titles);
+}
+
+#subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#description {
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--description);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    margin: 0 20px 20px 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.20);
+    border-radius: 7px;
+    padding: 10px 15px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    color: var(--titles);
+    font-size: 1.2rem;
+}
+
+.card p{
+    color: var(--description);
+    font-size: 0.95rem;
+    margin-top: 5px;
+}
+
+.card img {
+    align-self: flex-end;
+}
+
+#supervisor {
+    border-top: var(--supervisor);
+    border-style: solid;
+    border-width: 5px 0 0 0;   
+}
+
+#team-builder {
+    border-top: var(--team);
+    border-style: solid;
+    border-width: 5px 0 0 0;
+}
+
+#karma{
+    border-top: var(--karma);
+    border-style: solid;
+    border-width: 5px 0 0 0;
+}
+
+#calculator{
+    border-top: var(--calculator);
+    border-style: solid;
+    border-width: 5px 0 0 0;
+}
 
 @media (min-width: 801px) {
     .header-container {
